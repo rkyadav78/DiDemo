@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
         DaggerSmartphoneComponent.builder()
             .memoryCardModule(MemoryCardModule(1000))
             .build()
-        Log.e("MYTAG","main activity")
+        Log.e("MYTAG", "main activity")
+
+        Log.e("MYTAG", "action 2 for commit")
 
 //        DaggerSmartphoneComponent.create().inject(this)
 //
@@ -24,7 +26,6 @@ class MainActivity : AppCompatActivity() {
 //            SIMCard(ServiceProvider()),
 //            MemoryCard()
 //        ).makeACallWithRecording()
-
 
 
     }
