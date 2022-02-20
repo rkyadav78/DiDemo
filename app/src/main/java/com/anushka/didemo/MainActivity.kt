@@ -2,6 +2,7 @@ package com.anushka.didemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         DaggerSmartphoneComponent.builder()
             .memoryCardModule(MemoryCardModule(1000))
             .build()
+        Log.e("MYTAG","main activity")
 
 //        DaggerSmartphoneComponent.create().inject(this)
 //
