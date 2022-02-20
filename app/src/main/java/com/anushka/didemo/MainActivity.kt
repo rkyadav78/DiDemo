@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
             .build()
         Log.e("MYTAG","main activity")
 
+        Log.e("MYTAG","testing for demo")
+
 //        DaggerSmartphoneComponent.create().inject(this)
 //
 //        smartPhone.makeACallWithRecording()
